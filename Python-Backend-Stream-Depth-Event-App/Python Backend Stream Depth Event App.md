@@ -5,7 +5,7 @@
       1. Dataset Type: Depth-Based
       2. Name: {provider}#lab-stream-depth-app
    3. In the manifest.json file, set “read”,”write” permissions for  {provider}#lab-stream-depth-app. 
-   4. Get the following field from the StreamDepthEvent: “data.dep”
+   4. Get the following field from the StreamDepthEvent: `“data.dep”`
    5. Post the data.dep value and all of the attributes of the StreamDepthEvent to {provider}#lab-stream-depth-app.
    6. Test the POST request in the Corva Data API Swagger document or in Postman utilizing your company's API key or your Bearer Token
    7. Locally test the lambda function using the Pytest template within the app directory

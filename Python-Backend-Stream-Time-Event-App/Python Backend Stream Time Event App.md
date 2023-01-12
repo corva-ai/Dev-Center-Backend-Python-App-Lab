@@ -5,8 +5,8 @@
       1. Dataset Type: Time-Based
       2. Name: {provider}#lab-stream-time-app
    3. In the manifest.json file, set “read”,”write” permissions for  {provider}#lab-stream-time-app. 
-   4. Get the following fields from the StreamTimeEvent: “data.pump_spm_1”, “data.pump_spm_2”
-   5. Calculate the total pump_spm values of data.pump_spm_1 + data.pump_spm_2
+   4. Get the following fields from the StreamTimeEvent: `“data.pump_spm_1”`, `“data.pump_spm_2”`
+   5. Calculate the total pump_spm values of `data.pump_spm_1 + data.pump_spm_2`
    6. Post the calculated total pump_spm values to {provider}#lab-stream-time-app.
    7. Test the POST request in the Corva Data API Swagger document or in Postman utilizing your company's API key or your Bearer Token
    8. Locally test the lambda function using the Pytest template within the app directory
